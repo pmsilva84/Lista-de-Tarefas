@@ -1,0 +1,31 @@
+:root{
+    background-color:  #282828 ;
+}
+
+.AddButton{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    size: 400px;
+}
+
+div{
+    padding: 5px;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: dotted;
+    border-color: #bdae93 ;
+}
+
+h1{
+    color: #ebdbb2 ;
+}
+
+li{}
