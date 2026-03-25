@@ -6,7 +6,6 @@ db.run(`
     CREATE TABLE IF NOT EXISTS tarefas(
         id integer primary key autoincrement,                
         nome text,
-
     )
     `)
 
@@ -23,8 +22,11 @@ insertValues.addEventListener('click', function(){
 })
 
 const showTask = document.getElementById('showtask')
-showTask.addEventListener(function(){
+showTask.addEventListener(async function(){
     for(let i = 0; i == db.run(`Select * FROM tarefas`); i++){
-        document.createElement('li').innerHTML = i
+        const li = document.createElement('li').innerHTML = i
+
+        showTask.appendChild(li)
     }
 })
+
