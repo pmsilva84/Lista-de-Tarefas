@@ -8,3 +8,8 @@ To usando da biblioteca **electron** para a criação de uma janela separa e nã
 - [ ] Criar uma conexão sql
 
 - [ ] Criar uma interface dinamica 
+
+
+**Tecnologias usadas**
+- Electron
+- NodeJs
